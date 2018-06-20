@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>C4E 18 Blog</h1>
+    <!-- jinja2 -->
+    {%for index in post%}
+        <h3>{{ index.title }}</h3>
+        <p>
+            {{ index.content }}
+        </p>
+        <i>By:
+            {{ "Mr" if index.gender ==1 else "Mrs"}} 
+            {{ index.author }}</i>
+        <hr>
+    {% endfor %}
+</body>
+</html>
