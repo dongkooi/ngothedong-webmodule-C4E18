@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lạy chúa trên cao</h1>
+    <h1>Turn down for what</h1>
+    {% for customer in all_customer %}
+        <div>Tên: {{customer.name}}
+        <p>Giới tính: {{customer.gender}}</p>
+        <p>Tuổi: {{customer.yob}}</p>
+        <p>Địa chỉ: {{customer.address}}</p>
+        <p>SDT: {{customer.phone}}</p>
+        <p>Email: {{customer.email}}</p>
+        <p>Công ty: {{customer.company}}</p>
+        <p>Trạng thái: {{customer.contacted}}</p>
+        <hr>
+        </div>
+    {% endfor %}
+</body>
+</html>

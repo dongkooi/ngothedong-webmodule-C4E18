@@ -1,0 +1,4 @@
+Are there any duplicate ids in the records?
+--No
+If no, why? Guess what information this is field represents and its implication/application
+-- Vì m?i tru?ng ch? có duy nh?t m?t id, d? dùng g?i, l?y thông tin c?a Field dó ra
