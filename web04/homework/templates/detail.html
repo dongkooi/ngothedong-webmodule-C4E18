@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Information</title>
+</head>
+<body>
+    <div>
+        <img src="../static/image/xuxu.jpg" alt="ERR">
+        <p>Tên: {{service.name}}</p>
+        <p>Năm sinh: {{service.yob}}</p>
+        <p>Chiều cao: {{service.height}}</p>
+        <p>SDT : {{service.phone}}</p>
+        <p>Mô tả: {{service.description}}</p>
+        <p>Số đo: {{service.measurements}}</p>
+        <br>
+        <a href="{{url_for("order", server_id= server.id)}}">Yêu cầu dịch vụ</a>
+        <br>
+        <a href="{{ url_for('logout') }}">Logout</a>
+</div>
+</body>
+</html>

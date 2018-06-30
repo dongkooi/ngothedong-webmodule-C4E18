@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About you</title>
+</head>
+<body>
+    {% for service in all_service %}
+    <div>
+        <img src="../static/image/xuxu.jpg" alt="ERR">
+        <p>Tên: {{service.name}}</p>
+        <p>Năm sinh: {{service.yob}}</p>
+        <p>Chiều cao: {{service.height}}</p>
+        <a href="{{url_for('detail', service_id= service.id)}}">Tìm hiểu thêm!</a>
+        <br>
+    </div>
+    {% endfor %}
+</body>
+</html>
