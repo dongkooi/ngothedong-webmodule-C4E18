@@ -1,0 +1,80 @@
+.full-page {
+    display: flex;
+    height: 1200px;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.page {
+    display: flex;
+    height: 1200px;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.left-page {
+    display: flex;
+    height: 90%;
+    width: 25%;
+    flex-wrap: wrap;
+}
+
+#logo {
+    background-image: url(static/images/page-logo.png);
+    background-size: cover;
+    height: 30%;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#left-body-1st{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.left-1st-inside {
+    height: 95%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item-1 {
+    background-image: url(static/images/icons/nav-tastemakers.png);
+    background-size: cover;
+    height: 80%;
+    width: 20%;
+}
+.item-2 {
+    background-image: url(static/images/icons/nav-blog.png);
+    background-size: cover;
+    height: 80%;
+    width: 20%;
+}
+.item-3 {
+    background-image: url(static/images/icons/nav-alist.png);
+    background-size: cover;
+    height: 80%;
+    width: 20%;
+}
+.item-4 {
+    background-image: url(static/images/icons/nav-contribute.png);
+    background-size: cover;
+    height: 80%;
+    width: 20%;
+}
+.item-5 {
+    background-image: url(static/images/icons/nav-about.png);
+    background-size: cover;
+    height: 80%;
+    width: 20%;
+}
+

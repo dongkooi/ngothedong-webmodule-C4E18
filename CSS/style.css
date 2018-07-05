@@ -1,0 +1,121 @@
+/* h1{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+#heading-2{
+    color: green;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+}
+
+.text-right{
+    text-align: right;
+}    */
+
+.text-red{
+    color: red;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.font-indie-flower{
+    font-family: 'Indie Flower', cursive;
+}
+
+#background-ele{
+    height: 500px;
+    width: 100%;
+    background-color: lightgreen;
+    background-image: url(http://kieutocdep2017.com/wp-content/uploads/2016/11/nhung-kieu-toc-ngan-dep-cho-be-gai-kwon-yul-de-thuong-voi-ma-banh-bao-9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-lightgreen{
+    background-color: lightgreen;
+}
+
+.text-success{
+    color: green;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.w-200px {
+    width: 200px;
+}
+
+.h-100px {
+    height: 100px;
+}
+
+.bg-blue {
+    background-color: dodgerblue;
+}
+
+.d-inline-block {
+    display: inline-block;
+
+}
+
+#box-model {
+    /* border: 1px solid green; */
+    margin: 30px;
+    padding: 5px;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.h-50 {
+    height: 50%;
+}
+.h-100px {
+    height: 100px;
+    width: 100%;
+}
+
+.w-70 {
+    width: 69%;
+    height: 500px;
+}
+
+.w-15 {
+    width: 15%;
+    height: 500px ;
+}
+
+.h-500px {
+    height: 500px;
+    width: 100%;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.logo {
+    background-color: brown;
+    width: 5%;
+    height: 30%;
+    margin: 2%;
+}
+.chuc-nang {
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    
+}
